@@ -1,152 +1,110 @@
 const help = (prefix) => {
 	return `
-「 *Toin BOT* 」
+            「 *SANDISX BOT 2.0* 」
+	
+	◪ *informações*
+	  ❏ Prefix: 「  ${prefix}  」
+	  ❏ Criador : SANDISX
+	
+	◪ *SOBRE*
+	  
+	  ├─ ❏ ${prefix}blocklist
+	  ├─ ❏ ${prefix}ping
+	  
+        ◪ *FAZER*
+	  │
+	  ├─ ❏ ${prefix}sticker
+          USO: FAZ FIGURINHA
+	  ├─ ❏ ${prefix}stickergif
+          USO: FAZ FIGURINHA ANIMADA
+	  ├─ ❏ ${prefix}toimg
+          USO: CONVERTE FIGURINHA EM IMAGEM
+	  ├─ ❏ ${prefix}tomp3
+           USO:CONVERTE VIDEO EM MP3
+	
+	◪ *MEDIA*
+	  │
+	  ├─ ❏ ${prefix}trendtwit
+	  ├─ ❏ ${prefix}randomkpop
+          USO: KPOP ALEATÓRIO 
+	  └─ ❏ ${prefix}ytsearch
+          USO: PESQUISAR NO YOUTUBE
+	
+	◪ *DOWNLOADER*
+	
+	  ├─ ❏ ${prefix}images
+          USO: ENVIA UMA IMAGEM DO PINTEREST DE ACORDO COM SUA PESQUISA
+	  ├─ ❏ ${prefix}ytmp3
+          USO: BAIXA UM MP3 DE ACORDO COM  SUA PESQUISA
+	  ├─ ❏ ${prefix}ytmp4
+          USO: BAIXA UM MP4 DE ACORDO COM SUA PESQUISA 
+	
+	◪ *MEME*
+	  │
+	  ├─ ❏ ${prefix}meme
+          USO: FAZ UM MEME EM INGLÊS 
+	  └─ ❏ ${prefix}memeindo
+          USO: FAZ UM MEME 
+	◪ *SOM*
+	  │
+	  ├─ ❏ ${prefix}play
+          USO: BAIXA UMA MUSICA DE ACORDO COM SUA PESQUISA
+	
+        ◪ *MÚSICA*
+	  │
+	  ├─ ❏ ${prefix}lirik
+          USO: MUSIC LYRICS
+	  └─ ❏ ${prefix}chord
+          USO: CHORD GUITAR
+	
+         ◪ *STALK*
+	  │
+	  ├─ ❏ ${prefix}tiktokstalk 
+          USO: STALKEAR TIK TOK 
+	  └─ ❏ ${prefix}igstalk
+          USO: STALKEAR INSTAGRAM
+	
+         ◪ *WIBU*
+	  │
+	  ├─ ❏ ${prefix}neonime
+	  ├─ ❏ ${prefix}pokemon
+	  ├─ ❏ ${prefix}loli
+	  ├─ ❏ ${prefix}waifu
+	  ├─ ❏ ${prefix}randomanime
+	  ├─ ❏ ${prefix}husbu
+	  ├─ ❏ ${prefix}husbu2
+	  ├─ ❏ ${prefix}wait
+	  └─ ❏ ${prefix}nekonime
+	◪ *DIVERSÃO*
+	  │
+	  ├─ ❏ ${prefix}alay
+	  ├─ ❏ ${prefix}gantengcek
+	  ├─ ❏ ${prefix}watak
+	  ├─ ❏ ${prefix}hobby
+	  ├─ ❏ ${prefix}game
+	  ├─ ❏ ${prefix}bucin
+	  ├─ ❏ ${prefix}trust
+	  ├─ ❏ ${prefix}dare
+	  └─ ❏ ${prefix}simi
+          USO: FALE COM O SIM SIMI
+	
+         ◪ *INFORMAÇÃO* 
+	  │
+	  ├─ ❏ ${prefix}bahasa
+          USO: LIST BAHASA
+	  ├─ ❏ ${prefix}kodenegara
+          USO: LIST CODE NEGARA
+	  ├─ ❏ ${prefix}kbbi
+          USO: KBBI
+	  ├─ ❏ ${prefix}fakta
+          USO:FAKTA
+	  ├─ ❏ ${prefix}infocuaca
+	  ├─ ❏ ${prefix}infogempa
+	  ├─ ❏ ${prefix}jadwaltvnow
+	  └─ ❏ ${prefix}covid
+          USO: PESQUISA SOBRE COVID
+	
 
-◪ *informações*
-  ❏ Prefix: 「  ${prefix}  」
-  ❏ Criador : Toin
-  ❏ Como instalar o BOT: https://www.youtube.com/watch?v=4cjhlXo9aGo
-
-◪ *SOBRE*
-  │
-  ├─ ❏ ${prefix}info
-  ├─ ❏ ${prefix}blocklist
-  ├─ ❏ ${prefix}chatlist
-  ├─ ❏ ${prefix}ping
-  └─ ❏ ${prefix}bugreport
-◪ *FAZER*
-  │
-  ├─ ❏ ${prefix}sticker
-  ├─ ❏ ${prefix}stickergif
-  ├─ ❏ ${prefix}toimg
-  ├─ ❏ ${prefix}tomp3
-  ├─ ❏ ${prefix}bpink
-  ├─ ❏ ${prefix}marvellogo
-  ├─ ❏ ${prefix}snowwrite
-  ├─ ❏ ${prefix}3dtext
-  ├─ ❏ ${prefix}ninjalogo
-  ├─ ❏ ${prefix}water
-  ├─ ❏ ${prefix}firetext
-  ├─ ❏ ${prefix}logowolf
-  ├─ ❏ ${prefix}logowolf2
-  ├─ ❏ ${prefix}phlogo
-  ├─ ❏ ${prefix}glitch
-  ├─ ❏ ${prefix}neonlogo
-  ├─ ❏ ${prefix}neonlogo2
-  ├─ ❏ ${prefix}lionlogo
-  ├─ ❏ ${prefix}jokerlogo
-  ├─ ❏ ${prefix}shadow
-  ├─ ❏ ${prefix}burnpaper
-  ├─ ❏ ${prefix}coffee
-  ├─ ❏ ${prefix}lovepaper
-  ├─ ❏ ${prefix}woodblock
-  ├─ ❏ ${prefix}qowheart
-  ├─ ❏ ${prefix}mutgrass
-  ├─ ❏ ${prefix}undergocean
-  ├─ ❏ ${prefix}woodenboards
-  ├─ ❏ ${prefix}wolfmetal
-  ├─ ❏ ${prefix}metalictglow
-  ├─ ❏ ${prefix}8bit
-  ├─ ❏ ${prefix}ttp
-  ├─ ❏ ${prefix}herrypotter
-  ├─ ❏ ${prefix}pubglogo
-  └─ ❏ ${prefix}quotemaker
-◪ *MEDIA*
-  │
-  ├─ ❏ ${prefix}trendtwit
-  ├─ ❏ ${prefix}randomkpop
-  └─ ❏ ${prefix}ytsearch
-◪ *EDUCATION*
-  │
-  ├─ ❏ ${prefix}wiki
-  ├─ ❏ ${prefix}wikien
-  ├─ ❏ ${prefix}nulis
-  ├─ ❏ ${prefix}quotes
-  ├─ ❏ ${prefix}quotes2
-  └─ ❏ ${prefix}artinama
-◪ *KERANG AJAIB*
-  │
-  ├─ ❏ ${prefix}apakah
-  ├─ ❏ ${prefix}kapankah
-  ├─ ❏ ${prefix}rate
-  └─ ❏ ${prefix}bisakah
-◪ *DOWNLOADER*
-  │
-  ├─ ❏ ${prefix}images
-  ├─ ❏ ${prefix}ytmp3
-  ├─ ❏ ${prefix}ytmp4
-  ├─ ❏ ${prefix}tiktok
-  └─ ❏ ${prefix}joox
-◪ *MEME*
-  │
-  ├─ ❏ ${prefix}meme
-  └─ ❏ ${prefix}memeindo
-◪ *SOM*
-  │
-  ├─ ❏ ${prefix}play
-  └─ ❏ ${prefix}tts
-◪ *MÚSICA*
-  │
-  ├─ ❏ ${prefix}lirik
-  └─ ❏ ${prefix}chord
-◪ *ISLAM*
-  │
-  └─ ❏ ${prefix}quran
-◪ *STALK*
-  │
-  ├─ ❏ ${prefix}tiktokstalk
-  └─ ❏ ${prefix}igstalk
-◪ *WIBU*
-  │
-  ├─ ❏ ${prefix}neonime
-  ├─ ❏ ${prefix}pokemon
-  ├─ ❏ ${prefix}loli
-  ├─ ❏ ${prefix}waifu
-  ├─ ❏ ${prefix}randomanime
-  ├─ ❏ ${prefix}husbu
-  ├─ ❏ ${prefix}husbu2
-  ├─ ❏ ${prefix}wait
-  └─ ❏ ${prefix}nekonime
-◪ *DIVERSÃO*
-  │
-  ├─ ❏ ${prefix}alay
-  ├─ ❏ ${prefix}gantengcek
-  ├─ ❏ ${prefix}watak
-  ├─ ❏ ${prefix}hobby
-  ├─ ❏ ${prefix}game
-  ├─ ❏ ${prefix}bucin
-  ├─ ❏ ${prefix}trust
-  ├─ ❏ ${prefix}dare
-  └─ ❏ ${prefix}simi
-◪ *INFORMAÇÃO*
-  │
-  ├─ ❏ ${prefix}bahasa
-  ├─ ❏ ${prefix}kodenegara
-  ├─ ❏ ${prefix}kbbi
-  ├─ ❏ ${prefix}fakta
-  ├─ ❏ ${prefix}infocuaca
-  ├─ ❏ ${prefix}infogempa
-  ├─ ❏ ${prefix}jadwaltvnow
-  └─ ❏ ${prefix}covid
-◪ *DONO*
-  │
-  ├─ ❏ ${prefix}setprefix
-  ├─ ❏ ${prefix}block
-  ├─ ❏ ${prefix}bc
-  ├─ ❏ ${prefix}bcgc
-  ├─ ❏ ${prefix}clone
-  └─ ❏ ${prefix}clearall
-◪ *OUTROS*
-  │
-  ├─ ❏ ${prefix}send
-  ├─ ❏ ${prefix}wame
-  ├─ ❏ ${prefix}virtex
-  ├─ ❏ ${prefix}exe
-  ├─ ❏ ${prefix}qrcode
-  ├─ ❏ ${prefix}afk
-  ├─ ❏ ${prefix}timer
-  ├─ ❏ ${prefix}fml
-  └─ ❏ ${prefix}fml2
 `
 }
 
